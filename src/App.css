@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body{
+  background-color: #f5f5f5;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  gap: 1rem;
+}
+.textColor{
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.App div {
+  font-size: 24px;
+  font-weight: bold;
+}
+:hover{
+  
+}
+.App button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.resultados{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
